@@ -2,6 +2,11 @@
 
 This is an overview of the structure of this repository and how to use it.
 
+## License
+First, you should [choose a license](https://choosealicense.com/).
+I've released this under the [MIT License](https://choosealicense.com/licenses/mit/) which is very permissive.
+If you wish to use a different license, change the [LICENSE](LICENSE) file.
+
 ## Repository Structure
 The structure of this repository is:
 
@@ -24,13 +29,14 @@ Getting binder to build a repository is as simple as going to [mybinder.org](htt
 Using the default options will launch a jupyter server with the same directory structure as the original repository. 
 The user can launch any of the notebooks in the repository. 
 
-Binder offers a button that can be added to any markdown file (README.md). 
+Binder offers a button that can be added to any markdown file ([README.md](README.md)). 
 With this you can make the launch process a single click for your users.
 You can even provide a path to a notebook file to open by default.
 So, you can list all of the projects in the readme which have their own buttons.
 
 > **Note:** Binder instances are ephemeral! They will be destroyed after 20 minutes of inactivity or 12 hours total runtime. 
 > This is done to keep the hardware resources under control and the service free. 
+> However, you can use the save to/restore from browser storage to maintain your work.
 
 Here is a [full tutorial on using binder](https://github.com/alan-turing-institute/the-turing-way/blob/master/workshops/boost-research-reproducibility-binder/workshop-presentations/zero-to-binder-python.md).
 
