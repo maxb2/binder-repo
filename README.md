@@ -10,5 +10,8 @@ The button above will launch a Jupyter server at the root of this repository.
 
 ## Projects
 
-### Project 1
-Example project 1.
+### TDKS
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxb2/binder-repo/HEAD?filepath=tdks%2Ftdks.ipynb)
+
+This program solves the 1D Kohn-Sham equation for two electrons in a harmonic-oscillator potential. It first calculates the self-consistent ground state, and then does a time propagation, assuming a short "kick".
