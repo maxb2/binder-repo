@@ -5,6 +5,7 @@
 > The deployment of the notebooks is done by Binder through a special link or button.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxb2/binder-repo/HEAD)
+
 The button above will launch a Jupyter server at the root of this repository.
 
 ## Projects
