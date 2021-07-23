@@ -47,10 +47,10 @@ If you were to run `pip freeze` on your machine, it would list every package tha
 There will be a lot of unneccessary packages in this list.
 However, we can use virtual environments to start from a clean slate and install only what we need.
 In essence, virtual environments are a combination of downloading software to a user folder and then altering `PATH` such that those packages are used over the system installed versions.
-There are two main tools to do this: venv and conda.
+There are two main tools to do this: [venv](https://docs.python.org/3/library/venv.html) and [conda](https://docs.conda.io/en/latest/).
 
-### venv
-Venv is the built-in python virtual environment module. 
+### [venv](https://docs.python.org/3/library/venv.html)
+[Venv](https://docs.python.org/3/library/venv.html) is the built-in python virtual environment module. 
 It is very simple to use, but can only manage python packages.
 
 ```bash
