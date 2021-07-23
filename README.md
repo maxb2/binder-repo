@@ -3,6 +3,8 @@
 > This is an example repository to host and deploy Jupyter notebooks. 
 > The notebook files are hosted in a public git repository (github, gitlab, bitbucket, etc.).
 > The deployment of the notebooks is done by Binder through a special link or button.
+> This also includes a workflow that triggers the build on mybinder.org. 
+> This should reduce the wait time for users.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maxb2/binder-repo/HEAD)
 
